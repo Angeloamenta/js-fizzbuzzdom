@@ -1,7 +1,10 @@
+.bg-c {
+    background-color: #083B4C;
+}
+
 .box {
-    width: 200px;
-    height: 200px;
-    border: 1px solid blue;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,9 +19,17 @@
   }
 
   .green  {
-    background-color: green;
+    background-color: #0BD6A1;
   }
   
   .yellow {
-    background-color: yellow;
+    background-color: #FFD166;
   }
+
+  .red {
+      background-color: #F0466F;
+  }
+
+  .blue {
+      background-color: #1389B2;
+    }

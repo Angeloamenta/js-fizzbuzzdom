@@ -10,20 +10,24 @@ for (let i = 1; i<=100 ; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
         element.append("Fizzbuzz");
+        element.classList.add('red');
     }
 
     else if (i % 3 === 0){
         
         console.log ("Fizz");
         element.append("Fizz");
+        element.classList.add('green')
 
     }else if (i % 5 === 0){
         
         console.log("Buzz");
         element.append("Buzz");
+        element.classList.add('yellow')
 
     }else {
         console.log (i)
         element.append(i);
+        element.classList.add('blue')
     }
 }
