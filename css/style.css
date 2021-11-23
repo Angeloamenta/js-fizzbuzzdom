@@ -11,12 +11,12 @@ margin: 0;
     padding: 100px 0;
     text-align: center;
     color: white;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .box {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ margin: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    width: 80%;
+    width: 55%;
     margin: 0 auto;
   }
 

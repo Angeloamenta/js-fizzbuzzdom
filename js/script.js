@@ -3,7 +3,7 @@ const body = document.querySelector (".bg-c");
 const title = document.createElement('div')
 title.classList.add('title-top');
 body.prepend(title);
-title.innerHTML = "<h1>" + "Fizbuzz DOM" + "</h1>"
+title.innerHTML = "<h1>" + "FizbuzzDOM" + "</h1>"
 // algoritmo da 1 a 100 con multipli di 3 chiamati fizz, di 5 buzz e di 3 e 5 insieme chiamati fizzbuzz
 
 for (let i = 1; i<=100 ; i++) {
