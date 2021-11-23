@@ -1,11 +1,15 @@
 const container = document.querySelector (".container");
+// inserisco titolo all'interno del div creato
 const body = document.querySelector (".bg-c");
 const title = document.createElement('div')
 title.classList.add('title-top');
 body.prepend(title);
+// con innerhtml possi inserire tag per creare un titolo h1
 title.innerHTML = "<h1>" + "FizbuzzDOM" + "</h1>"
 // algoritmo da 1 a 100 con multipli di 3 chiamati fizz, di 5 buzz e di 3 e 5 insieme chiamati fizzbuzz
 
+
+// ricordarsi di mettere le informazioni a cascata per evitare di sovrascrivere
 for (let i = 1; i<=100 ; i++) {
     const element = document.createElement('div');
         element.classList.add('box');
