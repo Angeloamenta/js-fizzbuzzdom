@@ -6,20 +6,24 @@ for (let i = 1; i<=100 ; i++) {
     const element = document.createElement('div');
         element.classList.add('box');
         container.append(element);
-
+        
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
+        element.append("Fizzbuzz");
     }
 
     else if (i % 3 === 0){
-    
+        
         console.log ("Fizz");
+        element.append("Fizz");
 
     }else if (i % 5 === 0){
         
         console.log("Buzz");
+        element.append("Buzz");
+
     }else {
         console.log (i)
-        
+        element.append(i);
     }
 }
