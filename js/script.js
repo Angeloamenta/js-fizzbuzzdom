@@ -5,7 +5,7 @@ const title = document.createElement('div')
 title.classList.add('title-top');
 body.prepend(title);
 // con innerhtml possi inserire tag per creare un titolo h1
-title.innerHTML = "<h1>" + "FizbuzzDOM" + "</h1>"
+title.innerHTML = "<h1>" + "FizzbuzzDOM" + "</h1>"
 // algoritmo da 1 a 100 con multipli di 3 chiamati fizz, di 5 buzz e di 3 e 5 insieme chiamati fizzbuzz
 
 
