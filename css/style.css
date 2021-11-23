@@ -1,5 +1,17 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
 .bg-c {
     background-color: #083B4C;
+}
+
+.title-top {
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
 }
 
 .box {
