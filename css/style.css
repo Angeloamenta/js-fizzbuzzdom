@@ -3,6 +3,12 @@ box-sizing: border-box;
 padding: 0;
 margin: 0;
 }
+
+html {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
 .bg-c {
     background-color: #083B4C;
 }
